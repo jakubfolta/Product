@@ -11,9 +11,8 @@ print(product([4, 5, 5]))
 def productWhile(integers):
     total = 1
     length = len(integers)
-    digits = integers[:]
     while length > 0:
-        total *= digits[length - 1]
+        total *= integers[length - 1]
         length -= 1
     return total
 
