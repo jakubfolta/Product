@@ -18,3 +18,48 @@ def productWhile(integers):
 
 print(productWhile([4, 5, 5, 6, 7]))
     
+
+def countProductOfIntegers(integers):
+    total = 1
+    for digit in integers:
+        total *= digit
+    return total
+
+print(countProductOfIntegers([42332]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
